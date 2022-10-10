@@ -1,0 +1,152 @@
+:root {
+    box-sizing: border-box;
+}
+
+.mainlayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, auto);
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+.heading {
+    text-align: center;
+    font-family: monospace;
+}
+
+.book {
+    width: 10vw;
+
+    height: 10vw;
+  
+margin: auto;
+}
+
+.blackline {
+    width: 90%;
+    justify-self: center;
+    height: 2px;
+    background-color: black;
+}
+
+.tablecontainer {
+    display: grid;
+    font-weight: bold;
+
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.tablecontainer > p {
+    display: grid;
+    justify-content: center;
+
+}
+
+.newgrid {
+    display: grid;
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.addbookbutton {
+    width: max-content;
+    height: 5vw;
+}
+
+.none {
+
+    display: none !important;
+   
+}
+
+input {
+  width: 80%;
+  align-self:center ;
+  justify-self: center;
+  height: 50%;
+}
+
+button {
+    height: min-content;
+    width: min-content;
+    align-self: center;
+    justify-self: center;
+}
+
+.pages, .author {
+    align-self: center;
+    justify-self: center;
+    font-weight: normal;
+
+}
+
+.title {
+    padding: 4px;
+    font-weight: normal;
+}
+
+.overlay {
+    margin-top: 20px;
+
+  display: grid;
+  height: 200%;
+  grid-template-columns: repeat(5,1fr);
+
+
+
+}
+
+.overlayread {
+    width: 40%;
+    height: 40%;
+    min-width: min-content;
+    min-height: min-content;
+    align-self:center ;
+    justify-self: center;
+}
+
+.submit {
+    width: max-content;
+    height: 5vw;
+}
+
+.buttondiv {
+
+    text-align: center;
+}
+
+.read {
+    width: 50%;
+    height: 20px;
+    align-self:center ;
+    justify-self: center;
+
+    
+}
+
+.overlayremove {
+    width: 80%;
+    min-width: min-content;
+    min-height: min-content;
+    height: 60%;
+    align-self:center ;
+    justify-self: center;
+}
