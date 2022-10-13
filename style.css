@@ -16,6 +16,7 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
+
 :root {
     box-sizing: border-box;
 }
