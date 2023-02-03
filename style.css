@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+
+input:valid {
+border: 4px solid lightgreen;    
+border-color: lightgreen;
+}
+
+input:invalid {
+    border: 4px solid orangered;
+border-color: orangered;
+}
+
+
 .mainlayout {
     display: grid;
     grid-template-columns: 1fr;
