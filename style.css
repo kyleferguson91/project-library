@@ -9,8 +9,8 @@ border-color: lightgreen;
 }
 
 input:invalid {
-    border: 4px solid orangered;
-border-color: orangered;
+    border: 4px solid yellow;
+border-color: yellow;
 }
 
 
